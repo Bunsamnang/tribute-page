@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: rgb(81, 81, 81);
+}
+.bold {
+  font-weight: bold;
+  color: black;
+}
+main {
+  background-color: rgb(240, 240, 240);
+  padding-top: 30px;
+  border-radius: 5px;
+  width: 100%;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h1,
+p {
+  text-align: center;
+}
+figure {
+  background-color: white;
+  width: 98%;
+  margin: auto;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+figure img {
+  width: 98%;
+  max-width: 1030px;
+  max-height: 1030px;
+  object-fit: cover;
+}
+
+figure figcaption {
+  padding: 20px;
+  text-align: center;
+}
+
+section h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+section p {
+  max-width: 555px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  font-style: italic;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 555px;
+}
+
+ul > li {
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+}
+.footer a {
+  color: rgb(80, 151, 221);
+}
+.footer a:visited {
+  color: rgb(128, 65, 128);
+}
